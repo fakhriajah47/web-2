@@ -1,0 +1,16 @@
+1. dokument root adalah direktori utama yang di gunakan web server
+2. Tidak harus secara defoult
+3. git init → Menginisialisasi repository Git baru dalam sebuah direktori.
+git clone <URL> → Mengunduh (menyalin) repository dari remote server ke lokal.
+git remote → Mengelola repository remote (melihat, menambah, atau menghapus koneksi ke repository lain).
+git add <file> → Menambahkan file ke dalam staging area untuk dikomit.
+git commit -m "pesan" → Menyimpan perubahan ke repository lokal dengan pesan tertentu.
+git push → Mengirim (mengunggah) perubahan dari repository lokal ke repository remote (misalnya GitHub/GitLab).
+git checkout <branch> → Berpindah ke branch tertentu dalam repository.
+4. github SAAS berbasis cloud, harus menggunakan layanan external, privat ripository, terfokus pada pengembangan open source
+Gitlab, bisa self hosted, sudah built in, privat privat repository, lebih kuat dalam management DEVops
+5. Variable User → Hanya berlaku untuk user tertentu dalam sistem operasi. Contoh: path spesifik untuk pengguna tertentu.
+Variable System → Berlaku untuk semua pengguna dalam sistem operasi. Biasanya digunakan untuk konfigurasi umum sistem.\
+6. Keduanya menyimpan nilai yang dapat digunakan dalam program atau sistem operasi.
+Keduanya sering digunakan untuk konfigurasi yang tidak sering berubah.
+Variable System berlaku di seluruh sistem operasi, sementara Variable Constant berlaku dalam lingkup program yang berjalan.
